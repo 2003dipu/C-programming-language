@@ -1,0 +1,16 @@
+A common and useful application of random number generation using srand() and rand() is in creating simple games. 
+Let's create a basic number guessing game as an example. In this game, the computer generates a random number, 
+and the player has to guess it. Here's a simple implementation:
+
+In this game, the srand() function is used to seed the random number generator with the current time, 
+making the generated random number less predictable. The program generates a random number between 
+1 and 100 using rand() % 100 + 1, and the player has to guess this number.
+
+The player can continue guessing until they correctly guess the number. After each guess, the program provides 
+feedback on whether the guess was too high or too low. When the player guesses the correct number, the program 
+informs them of the number of attempts it took to guess the number.
+
+This is a simple example, but it illustrates how you can use srand() and rand() to create an engaging and 
+interactive game with random elements. You can build upon this foundation to create more complex games or 
+applications that involve random numbers.
+
